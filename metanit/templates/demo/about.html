@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="bobo">
+  <h2>Welcome</h2>
+  <p class='text'>Учет заявок на ремонт оборудования ООО &laquo;Техносервис&raquo;</p>
+  
+  <h2>Инструкция</h2>
+  <p class='text'>1. Нажмите кнопку &laquo;Подключится к базе данных&raquo;</p>
+  <p class='text'>2. Если базы данных не существует, то появится кнопка &laquo;Создать&raquo;</p>
+  <p class='text'>Нажмите ее и база будет создана.</p>
+  <p class='text'>3. Далее перейдите во вкладку &laquo;Создать пользователя&raquo;</p>
+</div>
+
+
+<style>
+  body {
+    padding-top: 200px;
+    background-color: #d1edd8
+  }
+
+  .bobo {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px
+  }
+
+  
+  .text {
+    padding-top: 10px;
+    line-height: 0.5px;
+    font-size: 20px
+  }
+</style>
+  {% endblock %}

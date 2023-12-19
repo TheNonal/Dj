@@ -1,0 +1,19 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.text {
+  color: rgb(113, 113, 156);
+  text-align: center;
+}
+
+.text p {
+  font-size: 20px;
+
+}
+
+.text img {
+  width: 500px;
+  align-items: center;
+}
